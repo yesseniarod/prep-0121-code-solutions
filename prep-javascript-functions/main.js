@@ -52,3 +52,9 @@ function returnFullName(firstName, lastName) {
 }
 var returnFullNameResult = returnFullName('Juan', 'Ramirez');
 console.log('returnFullName Exercise:', returnFullNameResult);
+
+function cubeNumber(number) {
+  return number * number * number;
+}
+var cubeNumberResult = cubeNumber(5);
+console.log('cubeNumber Exercise:', cubeNumberResult);
