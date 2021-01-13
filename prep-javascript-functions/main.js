@@ -58,3 +58,10 @@ function cubeNumber(number) {
 }
 var cubeNumberResult = cubeNumber(5);
 console.log('cubeNumber Exercise:', cubeNumberResult);
+
+function returnMathSentence(num1, num2) {
+  var total = num1 + num2;
+  return 'If you add ' + num1 + ' and ' + num2 + ' together you get ' + total + '.';
+}
+var returnMathSentenceResult = returnMathSentence(5, 12);
+console.log('returnMathSentence Exercise:', returnMathSentenceResult);
