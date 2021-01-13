@@ -16,3 +16,9 @@ function personalizeGreeting(str) {
 }
 var personalizeGreetingResult = personalizeGreeting('World');
 console.log('personalizeGreeting Exercise:', personalizeGreetingResult);
+
+function returnDataType(data) {
+  return typeof data;
+}
+var returnDataTypeResult = returnDataType(1072);
+console.log('returnDataType Exercise:', returnDataTypeResult);
