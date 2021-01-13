@@ -5,14 +5,14 @@ function addTwoNumbers(num1, num2) {
 var addTwoNumbersResult = addTwoNumbers(2, 2);
 console.log('addTwoNumbers Exercise:', addTwoNumbersResult);
 
-function convertHoursToMinutes(num) {
-  return num * 60;
+function convertHoursToMinutes(number) {
+  return number * 60;
 }
 var convertHoursToMinutesResults = convertHoursToMinutes(2);
 console.log('convertHoursToMinutes Exercise:', convertHoursToMinutesResults);
 
-function personalizeGreeting(str) {
-  return 'Hello ' + str + '!';
+function personalizeGreeting(name) {
+  return 'Hello ' + name + '!';
 }
 var personalizeGreetingResult = personalizeGreeting('World');
 console.log('personalizeGreeting Exercise:', personalizeGreetingResult);
@@ -40,3 +40,9 @@ function subtractTwoNumbers(num1, num2) {
 }
 var subtractTwoNumbersResult = subtractTwoNumbers(22, 7);
 console.log('subtractTwoNumbers Exercise:', subtractTwoNumbersResult);
+
+function getCircleCircumference(radius) {
+  return 2 * Math.PI * radius;
+}
+var getCircleCircumferenceResult = getCircleCircumference(5);
+console.log('getCircleCircumference Exercise:', getCircleCircumferenceResult);
